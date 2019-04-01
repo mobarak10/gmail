@@ -1,0 +1,232 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* header css */
+#header-section{
+    background: #105288;
+}
+.logo img{
+    width: 80px;
+    margin: 10px;
+}
+
+.header-text{
+    color: #fff;
+}
+.header-text h1{
+    margin-top: 22px;
+    font-size: 40px;
+    font-family: roboto;
+}
+
+
+/* menu section */
+.nav-link {
+    font-weight: bold;
+    font-family: roboto;
+}
+nav.navbar.navbar-expand-md.navbar-dark {
+    background: #105288cf;
+}
+
+
+/* main content */
+.content{
+    width: 100%;
+}
+.content a:hover{
+    text-decoration: none;
+}
+.email-client, .project-section{
+    background: #105288;
+    width: 50%;
+    padding: 50px;
+    margin: 50px 237px;
+    border-radius: 84px;
+}
+.email-client h2, .project-section h2{
+    color: #fff;
+    font-family: roboto;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* footer section */
+footer{
+    background: #105288;
+}
+.footer-content{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.footer-content p{
+    padding: 10px 0;
+    margin-top: 11px;
+}
+.footer-content p > a{
+    color: #ffffff87;
+}
+.footer-content p > a:hover{
+    color: #fff;
+}
+
+
+/* all customer page */
+.content-all{
+    width: 100%;
+}
+.content-all h2 {
+    padding: 15px 0;
+    font-family: roboto;
+    border-bottom: 2px solid #105288;
+}
+
+
+/* view customer profile page */
+.customer-profile {
+    padding: 50px;
+    width: 700px;
+    margin: 50px auto;
+    background: #0fc0f3;
+    border-radius: 11px;
+}
+.customer-profile img {
+    width: 300px;
+    margin-left: 25%;
+    background: #105288;
+    padding: 5px;
+    border-radius: 50%;
+}
+.customer-profile h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.customer-profile p{
+    text-align: center;
+    line-height: 10px;
+}
+.total-email {
+    background: #105288;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 48px;
+}
+.view{
+    color: #fff;
+    background-color: #3498DB;
+}
+.delete{
+    color: #fff;
+    background-color: red;
+}
+
+
+/* new customer section */
+.form-area {
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #10528854;
+    padding: 20px;
+    border-radius: 10px;
+}
+.pagination-section{
+    margin: 16px auto;
+}
+
+button.btn.btn-primary {
+    padding: 10px 30px;
+    text-align: center;
+    float: right;
+}
+.sendtoCustom {
+    width: 100%;
+    border-bottom: 2px solid #b0c6d86e;
+    padding: 16px 0;
+    text-align: center;
+    color: #105288;
+}
+
+.btnsave{
+    float: right;
+}
+
+
+/* login page */
+
+.btnLogout{
+    float: right;
+    margin-top: 10px;
+}
+.login{
+    width: 500px;
+    margin: 50px auto;
+    background: #d55868;
+    padding: 34px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+/*total mail*/
+.total_mail{
+    color: #fff;
+    text-decoration: none;
+}
+.total_mail:hover{
+    color: #f44277;
+    text-decoration: none;
+}
+
+/*email send*/
+input.btn.btn-primary.btnsave {
+    float: right;
+}
+
+/* responsive css start */
+
+@media only screen and (max-width: 768px) {
+        .logo{
+            width: 100px;
+            float: left;
+        }
+        .header-text{
+            margin-left: 20px;
+            width: 100%;
+        }
+        .header-text h1{
+            font-size: 139%;
+            margin-top: 37px;
+        }
+
+
+
+        .content-all{
+            width: 100%;
+        }
+        .content-all h2 {
+            padding: 15px 0;
+        }
+
+
+
+        
+        .email-client, .project-section{
+            width: 100%;
+            padding: 17px;
+            margin: 40px auto;
+        }
+        .email-client h2, .project-section h2{
+            font-size: 25px;
+        }
+
+}
